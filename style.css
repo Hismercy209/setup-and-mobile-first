@@ -156,10 +156,9 @@ li {
   z-index: 999;
 }
 
-.caption {
+.headline {
   width: 100%;
   height: calc(718px - 60px);
-  background-image: url("background-Image.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -167,9 +166,10 @@ li {
   border-bottom-left-radius: 5rem;
   background-color: #fff;
   position: relative;
+  background-image: url(./images/header-background.png);
 }
 
-.caption h1 {
+.headline h1 {
   width: 70%;
   font-size: 4rem;
   font-style: normal;
@@ -181,7 +181,7 @@ li {
   padding: 10rem 2.5rem 0 2.5rem;
 }
 
-.caption p {
+.headline p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -191,8 +191,18 @@ li {
   margin: 2.5rem 0;
 }
 
-.caption .connect {
+.headline .connect {
   color: #6070ff;
   font-weight: 500;
   padding: 0 2.5rem;
+}
+
+.icons li {
+  float: left;
+  padding: 20px 15px;
+}
+
+.icons .main-container {
+  display: flex;
+  justify-content: space-between;
 }
