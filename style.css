@@ -245,23 +245,23 @@ li {
 }
 
 .cascade {
-width: 45px;
-height: 24px;
-background: #ebebff;
-border-radius: 8px;
-justify-content: center;
-align-items: center;
-text-align: center;
+  width: 45px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .javascript {
-width: 89px;
-height: 24px;
-background: #ebebff;
-border-radius: 8px;
-justify-content: center;
-align-items: center;
-text-align: center;
+  width: 89px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .tag {
